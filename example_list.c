@@ -54,6 +54,7 @@ int main() {
   //element->next->data = 9;
   element2->next = element3;
   element3->next = element4;
+  element4->next = NULL;
   
   // comment out to see freeing
   walk(queue->head); // show data of linked list
